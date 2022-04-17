@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: nones;
+}
+
+.principal{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.left{
+    height: 100vh;
+    margin-right: 30px;
+    margin-top: 80px;
+}
+
+.right{
+    font-family: "Ubuntu";
+}
+
+.right h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.right p span{
+    color: blue;
+    text-decoration: underline;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+form label{
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+form input{
+    padding: 10px;
+}
+
+.listas{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+
+ul{
+    margin-right: 50px;
+}
+
+ul li::before {
+    content: "• ";
+    color: blue; /* or whatever color you prefer */
+}
+
+.sign{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.sign button{
+    margin-right: 80px;
+    padding: 10px 60px;
+    font-size: 20px;
+    background: white;
+    border: 2px solid grey;
+    color: grey;
+}
